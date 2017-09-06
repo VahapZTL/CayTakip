@@ -4,6 +4,7 @@ var bcrypt   = require('bcrypt-nodejs');
 var userSchema = mongoose.Schema({
     email: String,
     password: String,
+    token: String,
     surgun: {
         type: Schema.ObjectId,
         ref: 'Surgun'
