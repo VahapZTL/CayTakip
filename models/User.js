@@ -5,10 +5,10 @@ var userSchema = mongoose.Schema({
     email: String,
     password: String,
     token: String,
-    surgun: {
+    surgun: [{
         type: Schema.ObjectId,
         ref: 'Surgun'
-    },
+    }],
     createdDate: {
         type: Date,
         default: Date.now

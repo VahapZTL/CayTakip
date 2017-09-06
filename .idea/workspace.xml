@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0c8aec-87dc-4229-a884-cc4af4c601bf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/User.js" afterPath="$PROJECT_DIR$/models/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,21 +29,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="101" column="2" lean-forward="true" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
+              <folding>
+                <element signature="e#312#1485#0" expanded="false" />
+                <element signature="e#1552#2129#0" expanded="false" />
+                <element signature="e#2193#3011#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -83,8 +85,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/models/User.js" />
       </list>
     </option>
   </component>
@@ -126,11 +128,6 @@
             <path>
               <item name="CayTakip" type="b2602c69:ProjectViewProjectNode" />
               <item name="CayTakip" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CayTakip" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CayTakip" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,12 +252,12 @@
       <workItem from="1504645791083" duration="25000" />
       <workItem from="1504645887402" duration="44000" />
       <workItem from="1504645938621" duration="1777000" />
-      <workItem from="1504692371637" duration="1902000" />
+      <workItem from="1504692371637" duration="2943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15148000" />
+    <option name="totallyTimeSpent" value="16189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,12 +302,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#312#1485#0" expanded="false" />
+            <element signature="e#1552#2129#0" expanded="false" />
+            <element signature="e#2193#3011#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -348,7 +348,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#312#1485#0" expanded="false" />
+            <element signature="e#1552#2129#0" expanded="false" />
+            <element signature="e#2193#3011#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -408,7 +412,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#312#1485#0" expanded="false" />
+            <element signature="e#1552#2129#0" expanded="false" />
+            <element signature="e#2193#3011#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,18 +655,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="306">
+          <caret line="101" column="2" lean-forward="true" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
+          <folding>
+            <element signature="e#312#1485#0" expanded="false" />
+            <element signature="e#1552#2129#0" expanded="false" />
+            <element signature="e#2193#3011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
