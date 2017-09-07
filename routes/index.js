@@ -111,7 +111,10 @@ router.post('/createSurgun', isAuth, function (req, res) {
         if(err)
             throw err;
         if(!user)
-            console.log('Kullanıcı bulunamadı!');
+            res.status(400).json({
+                success: false,
+                data: 'Kullanıcı bulunamadı!'
+            });
 
         var surgunModel = new Surgun();
         surgunModel.surgunNumarasi = req.body.surgunNumarasi;
@@ -127,7 +130,29 @@ router.post('/createSurgun', isAuth, function (req, res) {
         surgunModel.save(function (err) {
             if(err)
                 throw err;
-            console.log('Surgun Modeli kaydedildi!');
+            res.json({
+                success: true,
+                data: 'Sürgün kaydedildi.'
+            });
+        });
+    });
+});
+
+//Return all Surgun Schema Router
+router.get('/allSurgun', isAuth, function (req, res) {
+    //Surgun data array.
+    var surgunArray;
+    User.findOne({_id: req.decoded}, function (err, user) {
+        if(err)
+            throw err;
+        if(!user)
+            res.status(400).json({
+                success: false,
+                data: 'Kullanıcı bulunamadı!'
+            });
+        //If have a user.
+        user.surgun.forEach(function (data) {
+            surgunArray = data;
         });
     });
 });
