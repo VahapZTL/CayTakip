@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0c8aec-87dc-4229-a884-cc4af4c601bf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,14 +32,19 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!block;n#isAuth#0" expanded="false" />
-                <element signature="e#1189#2472#0" expanded="false" />
-                <element signature="e#2539#3195#0" expanded="false" />
-                <element signature="e#3279#4039#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="627">
+              <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,8 +62,8 @@
       <file leaf-file-name="Surgun.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Surgun.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -80,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/models/Surgun.js" />
         <option value="$PROJECT_DIR$/npm-debug.log" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -88,6 +91,7 @@
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/models/User.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
@@ -123,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,6 +138,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22772000" />
+    <option name="totallyTimeSpent" value="22881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,12 +314,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!block;n#isAuth#0" expanded="false" />
-            <element signature="e#1189#2472#0" expanded="false" />
-            <element signature="e#2539#3195#0" expanded="false" />
-            <element signature="e#3279#4039#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -353,12 +352,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#isAuth#0" expanded="false" />
-            <element signature="e#1189#2472#0" expanded="false" />
-            <element signature="e#2539#3195#0" expanded="false" />
-            <element signature="e#3279#4039#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -418,12 +412,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#isAuth#0" expanded="false" />
-            <element signature="e#1189#2472#0" expanded="false" />
-            <element signature="e#2539#3195#0" expanded="false" />
-            <element signature="e#3279#4039#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +593,8 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -642,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Surgun.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -666,14 +656,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!block;n#isAuth#0" expanded="false" />
-            <element signature="e#1189#2472#0" expanded="false" />
-            <element signature="e#2539#3195#0" expanded="false" />
-            <element signature="e#3279#4039#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="627">
+          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

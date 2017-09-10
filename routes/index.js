@@ -140,19 +140,33 @@ router.post('/createSurgun', isAuth, function (req, res) {
 
 //Return all Surgun Schema Router
 router.get('/allSurgun', isAuth, function (req, res) {
-    //Surgun data array.
-    var surgunArray;
-    User.findOne({_id: req.decoded}, function (err, user) {
-        if(err)
-            throw err;
-        if(!user)
+    User.findOne({ _id: req.decoded }, function(err, user) {
+        if (err) throw err;
+        if (!user)
             res.status(400).json({
                 success: false,
-                data: 'Kullanıcı bulunamadı!'
+                data: "Kullanıcı bulunamadı!"
             });
         //If have a user.
-        user.surgun.forEach(function (data) {
-            surgunArray = data;
+        Surgun.find({ _id: { $in: user.surgun } }, function(err, surgunData) {
+            if (err) throw err;
+            if (surgunData.length <= 0) {
+                res.status(400).json({
+                    success: false,
+                    data: "Veri bulunamadı!"
+                });
+            }
+            var surgunObj = surgunData.map(function(data) {
+                var obj = {
+                    _id: data._id,
+                    name: data.surgunNumarasi
+                };
+                return obj;
+            });
+            res.json({
+                success: true,
+                data: surgunObj
+            });
         });
     });
 });
